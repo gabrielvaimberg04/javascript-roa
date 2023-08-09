@@ -24,4 +24,18 @@ function App() {
   );
 }
 
+function App() {
+    return (
+      <Router>
+        <div className="app">
+          <Route path="/" component={Index} exact />
+          <Route path="/rock-bands" component={RockBands} />
+          {/* Agrega más rutas aquí */}
+        </div>
+      </Router>
+    );
+  }
+
+  
+
 
